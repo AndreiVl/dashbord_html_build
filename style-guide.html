@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Style Guide</title>
+      <link href="css/perfect-scrollbar.css" rel="stylesheet">
+      <link href="css/slick.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet"><!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    </head>
+  <body>
+    <section class="style-guide">
+      <div class="container">
+        <div class="row mr-mb10">
+          <div class="col-12">
+            <h1>Atoms</h1>
+          </div>
+        </div>
+        <div class="row mr-mb10"> 
+          <div class="col-12">
+            <p class="big-text">big-text - Open Sans 30\36 SemiBold</p>
+            <h1 class="h1">H1 - Open Sans 26\32 SemiBold</h1>
+            <h2 class="h2">H2 - Open Sans 20\26 SemiBold</h2>
+            <h3 class="h3">H3 - Open Sans 16\24 SemiBold</h3>
+            <h4 class="h4">H4 - Open Sans 14\18 SemiBold</h4>
+            <p class="text">text - Open Sans 14\22</p>
+            <p class="text text--bold">text--bold - Open Sans 14\22 Bold</p>
+            <p class="text text--sm">text--sm - Open Sans 12\16</p>
+            <p class="text text--sm text--bold">text--sm.text--bold - Open Sans 12\16 Bold</p>
+          </div>
+        </div>
+        <div class="row mr-mb10"> 
+          <div class="col-12"><a class="logo" href="/"><img src="images/logo.svg" alt="Crypto" title="Crypto"></a>
+          </div>
+        </div>
+        <div class="row mr-mb10"> 
+          <div class="col-12">
+                <div class="user-pik">
+                  <picture><img class="user-pik__img" src="images/user-pic__img-01.png" srcset="images/user-pic__img-01@2x.png 2x" alt="Author" title="Author"></picture>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10"> 
+          <div class="col-12">
+                <div class="user-pik user-pic--big user-pic--big-noactiv">
+                  <picture><img class="user-pik__img" src="images/user-pic__img-01.png" srcset="images/user-pic__img-01@2x.png 2x" alt="Author" title="Author"></picture>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10"> 
+          <div class="col-12">
+                <div class="user-pik user-pic--big user-pic--big-activ">
+                  <picture><img class="user-pik__img" src="images/user-pic__img-01.png" srcset="images/user-pic__img-01@2x.png 2x" alt="Author" title="Author"></picture>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10"> 
+          <div class="col-12">
+                <p class="badge text text--sm text--bold">Paused</p>
+                <p class="badge text text--sm text--bold badge--green">Completed</p>
+                <p class="badge text text--sm text--bold badge--border">12 Confirmation</p>
+                <p class="badge text text--sm text--bold badge--big">1.124589756 BTC</p>
+          </div>
+        </div>
+        <div class="row mr-mb10"> 
+          <div class="col-12">
+                <p class="notification text text--esm text--bold">10</p>
+          </div>
+        </div>
+        <div class="row mr-mb10"> 
+          <div class="col-12">
+                <p class="notification text text--esm text--bold notification--red">10</p>
+          </div>
+        </div>
+        <div class="row mr-mb10"> 
+          <div class="col-12">
+                <button class="btn btn--circle btn--circle--bg btn--circle btn--circle--bg" type="button">
+                      <svg class="icon icon--plain ">
+                        <use xlink:href="images/icons.svg#icon--plain"></use>
+                      </svg>
+                </button>
+                <button class="btn btn--circle btn--circle" type="button">
+                      <svg class="icon icon--clip icon--18">
+                        <use xlink:href="images/icons.svg#icon--clip"></use>
+                      </svg>
+                </button>
+                <button class="btn btn--block btn--block" type="button"><span class="btn__text">Register</span>
+                </button>
+          </div>
+        </div>
+        <div class="row mr-mb10"> 
+          <div class="col-12">
+                <button class="btn" type="button" disabled><span class="btn__text">Register</span>
+                </button>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <button class="btn" type="button"><span class="btn__text">Download Report</span>
+                </button>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <button class="btn btn--outline btn--outline" type="button"><span class="btn__text">Download Report</span>
+                </button>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <button class="btn btn--outline btn--outline" type="button" disabled><span class="btn__text">Download Report</span>
+                </button>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-8">
+                <div class="chat-user">
+                  <div class="chat-user__img">
+                        <div class="user-pik user-pic--big user-pic--big-noactiv">
+                          <picture><img class="user-pik__img" src="images/user-pic__img-01.png" srcset="images/user-pic__img-01@2x.png 2x" alt="Author" title="John Doe"></picture>
+                        </div>
+                  </div>
+                  <div class="chat-user__info">
+                    <div class="chat-user__left"><a class="chat-user__title text text--bold text--black" href="#" target="_blank">John Doe</a>
+                      <p class="chat-user__text text text--sm">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="chat-user__right">
+                      <p class="chat-user__date text text--sm">4:32 PM</p>
+                          <p class="notification text text--esm text--bold">10</p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-8">
+                <div class="chat-user">
+                  <div class="chat-user__img">
+                        <div class="user-pik user-pic--big user-pic--big-activ">
+                          <picture><img class="user-pik__img" src="images/user-pic__img-01.png" srcset="images/user-pic__img-01@2x.png 2x" alt="Author" title="John Doe"></picture>
+                        </div>
+                  </div>
+                  <div class="chat-user__info">
+                    <div class="chat-user__left"><a class="chat-user__title text text--bold text--black" href="#" target="_blank">John Doe</a>
+                      <p class="chat-user__text text text--sm">Lorem ipsum dolor sit</p>
+                    </div>
+                    <div class="chat-user__right">
+                      <p class="chat-user__date text text--sm">4:32 PM</p>
+                          <p class="notification text text--esm text--bold notification--red">10</p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <p class="message text">Lorem ipsum dolor sit amet, consectetur adipiscing, purus sit ametl.</p>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <p class="message text message--green">Lorem ipsum dolor sit amet, consectetur adipiscing, purus sit ametl.</p>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <button class="btn icon--block icon--block" type="button">
+                      <svg class="icon icon--hamburger ">
+                        <use xlink:href="images/icons.svg#icon--hamburger"></use>
+                      </svg>
+                </button>
+                <button class="btn btn--flat btn--flat" type="button">
+                      <svg class="icon icon--reload-sharp ">
+                        <use xlink:href="images/icons.svg#icon--reload-sharp"></use>
+                      </svg><span class="btn__text">Load More</span>
+                </button>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <div class="summary-item">
+                  <div class="summary-item__body">
+                    <p class="summary-item__title text text--black">Address</p>
+                    <p class="summary-item__text text">2dxg25454841132457d21564d1321d35d5</p>
+                  </div>
+                </div>
+                <div class="summary-item summary-item--white">
+                  <div class="summary-item__body">
+                    <p class="summary-item__title text text--black">Hash 160</p>
+                    <p class="summary-item__text text">3df2dfds24478454d445d5sf454df545d</p>
+                  </div>
+                </div>
+                <div class="summary-item">
+                  <div class="summary-item__body">
+                    <p class="summary-item__title text text--black">Tools</p>
+                    <p class="summary-item__text text">Related Tags - Unspent Outputs</p>
+                  </div>
+                </div>
+                <div class="summary-item summary-item--icon">
+                  <div class="summary-item__body">
+                    <p class="summary-item__title text text--black">No. Transactions</p>
+                    <p class="summary-item__text text">54</p>
+                  </div>
+                      <svg class="icon icon--chart icon--18">
+                        <use xlink:href="images/icons.svg#icon--chart"></use>
+                      </svg>
+                </div>
+                <div class="summary-item summary-item--white summary-item--icon">
+                  <div class="summary-item__body">
+                    <p class="summary-item__title text text--black">Total Received</p>
+                    <p class="summary-item__text text">95.12345 BTC</p>
+                  </div>
+                      <svg class="icon icon--chart icon--18">
+                        <use xlink:href="images/icons.svg#icon--chart"></use>
+                      </svg>
+                </div>
+                <div class="summary-item summary-item--icon">
+                  <div class="summary-item__body">
+                    <p class="summary-item__title text text--black">Total Balance</p>
+                    <p class="summary-item__text text">0 BTC</p>
+                  </div>
+                      <svg class="icon icon--chart icon--18">
+                        <use xlink:href="images/icons.svg#icon--chart"></use>
+                      </svg>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <div class="referral-item">
+                  <div class="referral__status">
+                        <p class="badge text text--sm text--bold">Paused</p>
+                  </div>
+                  <div class="referral__user">
+                    <div class="referral__user-pik">
+                          <div class="user-pik user-pic--big">
+                            <picture><img class="user-pik__img" src="images/referral__img-01.png" srcset="images/referral__img-01@2x.png 2x" alt="Author" title="Author"></picture>
+                          </div>
+                    </div>
+                    <div class="referral__user-info">
+                      <p class="referral__name text text--sm">Happy Rana</p><a class="referral__email text text--sm link link--gray" href="mailto:email">Ramonrid@wanprotonmail.com</a>
+                    </div>
+                  </div>
+                  <div class="referral__btn">
+                        <button class="btn icon--block icon--block-gray icon--block icon--block-gray" type="button">
+                              <svg class="icon icon--more icon--18">
+                                <use xlink:href="images/icons.svg#icon--more"></use>
+                              </svg>
+                        </button>
+                  </div>
+                </div>
+                <div class="referral-item">
+                  <div class="referral__status">
+                        <p class="badge text text--sm text--bold badge--green">Completed</p>
+                  </div>
+                  <div class="referral__user">
+                    <div class="referral__user-pik">
+                          <div class="user-pik user-pic--big">
+                            <picture><img class="user-pik__img" src="images/referral__img-02.png" srcset="images/referral__img-02@2x.png 2x" alt="Author" title="Author"></picture>
+                          </div>
+                    </div>
+                    <div class="referral__user-info">
+                      <p class="referral__name text text--sm">Happy Rana</p><a class="referral__email text text--sm link link--gray" href="mailto:email">Ramonrid@wanprotonmail.com</a>
+                    </div>
+                  </div>
+                  <div class="referral__btn">
+                        <button class="btn icon--block icon--block-gray icon--block icon--block-gray" type="button">
+                              <svg class="icon icon--more icon--18">
+                                <use xlink:href="images/icons.svg#icon--more"></use>
+                              </svg>
+                        </button>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12"> 
+                <div class="input">
+                  <input type="text" name="serch" id="serch" placeholder="Search here...">
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <div class="checkbox">
+                  <label for="accept">
+                    <input type="checkbox" name="accept" id="accept"><span></span><span></span>
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label for="check">
+                    <input type="checkbox" name="check" id="check" checked><span></span><span></span>
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label for="dese">
+                    <input type="checkbox" name="dese" id="dese" disabled="disabled"><span></span><span></span>
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label for="dis">
+                    <input type="checkbox" name="dis" id="dis" checked disabled="disabled"><span></span><span></span>
+                  </label>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <div class="chat-message">
+                  <div class="chat-message__img">
+                        <div class="user-pik user-pic--big">
+                          <picture><img class="user-pik__img" src="images/user-pic__img-01.png" srcset="images/user-pic__img-01@2x.png 2x" alt="Author" title="Author"></picture>
+                        </div>
+                  </div>
+                  <div class="chat-message__text">
+                        <p class="message text message--green">Lorem ipsum dolor sit amet, consectetur adipiscing, purus sit ametl.</p><span class="chat-message__date text text--sm">4:32 PM</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <div class="chat-message">
+                  <div class="chat-message__img">
+                        <div class="user-pik user-pic--big">
+                          <picture><img class="user-pik__img" src="images/user-pic__img-01.png" srcset="images/user-pic__img-01@2x.png 2x" alt="Author" title="Author"></picture>
+                        </div>
+                  </div>
+                  <div class="chat-message__text">
+                        <p class="message text">Lorem ipsum dolor sit amet, consectetur adipiscing, purus sit ametl.</p><span class="chat-message__date text text--sm">4:32 PM</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <div class="input-border-radius">
+                      <div class="input">
+                        <input type="text" name="serch-massage" id="serch-massage" placeholder="Type to message">
+                      </div>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+            <form class="chat-form" method="post" name="chat-form">
+                  <button class="btn btn--circle btn--circle" type="button">
+                        <svg class="icon icon--clip icon--18">
+                          <use xlink:href="images/icons.svg#icon--clip"></use>
+                        </svg>
+                  </button>
+                  <div class="input-border-radius">
+                        <div class="input">
+                          <input type="text" name="serch-massage" id="serch-massage" placeholder="Type to message">
+                        </div>
+                  </div>
+                  <button class="btn btn--circle btn--circle--bg btn--circle btn--circle--bg" type="submit">
+                        <svg class="icon icon--plain ">
+                          <use xlink:href="images/icons.svg#icon--plain"></use>
+                        </svg>
+                  </button>
+            </form>
+          </div>
+        </div>
+        <div class="row mr-mb10"> 
+          <div class="col-12">
+            <ul class="style-guide__icon-list">
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--apps ">
+                      <use xlink:href="images/icons.svg#icon--apps"></use>
+                    </svg>
+                <p class="text">icon--apps</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--card ">
+                      <use xlink:href="images/icons.svg#icon--card"></use>
+                    </svg>
+                <p class="text">icon--card</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--close ">
+                      <use xlink:href="images/icons.svg#icon--close"></use>
+                    </svg>
+                <p class="text">icon--close</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--exit ">
+                      <use xlink:href="images/icons.svg#icon--exit"></use>
+                    </svg>
+                <p class="text">icon--exit</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--hamburger ">
+                      <use xlink:href="images/icons.svg#icon--hamburger"></use>
+                    </svg>
+                <p class="text">icon--hamburger</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--help ">
+                      <use xlink:href="images/icons.svg#icon--help"></use>
+                    </svg>
+                <p class="text">icon--help</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--list ">
+                      <use xlink:href="images/icons.svg#icon--list"></use>
+                    </svg>
+                <p class="text">icon--list</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--mail ">
+                      <use xlink:href="images/icons.svg#icon--mail"></use>
+                    </svg>
+                <p class="text">icon--mail</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--money ">
+                      <use xlink:href="images/icons.svg#icon--money"></use>
+                    </svg>
+                <p class="text">icon--money</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--notifications ">
+                      <use xlink:href="images/icons.svg#icon--notifications"></use>
+                    </svg>
+                <p class="text">icon--notifications</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--planet ">
+                      <use xlink:href="images/icons.svg#icon--planet"></use>
+                    </svg>
+                <p class="text">icon--planet</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--refresh ">
+                      <use xlink:href="images/icons.svg#icon--refresh"></use>
+                    </svg>
+                <p class="text">icon--refresh</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--search ">
+                      <use xlink:href="images/icons.svg#icon--search"></use>
+                    </svg>
+                <p class="text">icon--search</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--settings ">
+                      <use xlink:href="images/icons.svg#icon--settings"></use>
+                    </svg>
+                <p class="text">icon--settings</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--web ">
+                      <use xlink:href="images/icons.svg#icon--web"></use>
+                    </svg>
+                <p class="text">icon--web</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--btc icon--18">
+                      <use xlink:href="images/icons.svg#icon--btc"></use>
+                    </svg>
+                <p class="text">icon--btc</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--eth icon--18">
+                      <use xlink:href="images/icons.svg#icon--eth"></use>
+                    </svg>
+                <p class="text">icon--eth</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--ltc icon--18">
+                      <use xlink:href="images/icons.svg#icon--ltc"></use>
+                    </svg>
+                <p class="text">icon--ltc</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--more icon--18">
+                      <use xlink:href="images/icons.svg#icon--more"></use>
+                    </svg>
+                <p class="text">icon--more</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--clip icon--18">
+                      <use xlink:href="images/icons.svg#icon--clip"></use>
+                    </svg>
+                <p class="text">icon--clip</p>
+              </li>
+              <li class="style-guide__icon-item style-guide__icon-item--bg">
+                    <svg class="icon icon--plain ">
+                      <use xlink:href="images/icons.svg#icon--plain"></use>
+                    </svg>
+                <p class="text">icon--plain</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--btc icon--32">
+                      <use xlink:href="images/icons.svg#icon--btc"></use>
+                    </svg>
+                <p class="text">icon--btc</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--usd icon--32">
+                      <use xlink:href="images/icons.svg#icon--usd"></use>
+                    </svg>
+                <p class="text">icon--usd</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--eth icon--32">
+                      <use xlink:href="images/icons.svg#icon--eth"></use>
+                    </svg>
+                <p class="text">icon--eth</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--eur icon--32">
+                      <use xlink:href="images/icons.svg#icon--eur"></use>
+                    </svg>
+                <p class="text">icon--eur</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--nio icon--32">
+                      <use xlink:href="images/icons.svg#icon--nio"></use>
+                    </svg>
+                <p class="text">icon--nio</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--btc-orange icon--42">
+                      <use xlink:href="images/icons.svg#icon--btc-orange"></use>
+                    </svg>
+                <p class="text">icon--btc-orange</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--eth-blue icon--42">
+                      <use xlink:href="images/icons.svg#icon--eth-blue"></use>
+                    </svg>
+                <p class="text">icon--eth-blue</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--chart icon--18">
+                      <use xlink:href="images/icons.svg#icon--chart"></use>
+                    </svg>
+                <p class="text">icon--chart</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--copy icon--18">
+                      <use xlink:href="images/icons.svg#icon--copy"></use>
+                    </svg>
+                <p class="text">icon--copy</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--reload-sharp ">
+                      <use xlink:href="images/icons.svg#icon--reload-sharp"></use>
+                    </svg>
+                <p class="text">icon--reload-sharp</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--arrow-right ">
+                      <use xlink:href="images/icons.svg#icon--arrow-right"></use>
+                    </svg>
+                <p class="text">icon--arrow-right</p>
+              </li>
+              <li class="style-guide__icon-item">
+                    <svg class="icon icon--lock ">
+                      <use xlink:href="images/icons.svg#icon--lock"></use>
+                    </svg>
+                <p class="text">icon--lock</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+            <h1>Molecules</h1>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <div class="header-profile">
+                  <div class="header-profile__text"><a class="text" href="#" target="_blank">Constance Fields</a></div>
+                      <div class="user-pik">
+                        <picture><img class="user-pik__img" src="images/user-pic__img-01.png" srcset="images/user-pic__img-01@2x.png 2x" alt="Author" title="Author"></picture>
+                      </div>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12"><a class="item-menu">
+                  <div class="item-menu__icon">
+                        <svg class="icon icon--web ">
+                          <use xlink:href="images/icons.svg#icon--web"></use>
+                        </svg>
+                  </div>
+                  <p class="item-menu__text text">Dashboard</p></a>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <form class="search" method="post" name="search">
+                      <button class="btn icon--block icon--block" type="submit">
+                            <svg class="icon icon--search ">
+                              <use xlink:href="images/icons.svg#icon--search"></use>
+                            </svg>
+                      </button>
+                      <div class="input">
+                        <input type="text" name="serch" id="serch" placeholder="Search here...">
+                      </div>
+                </form>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <nav class="menu">
+                  <p class="menu__title h4">Main</p>
+                  <ul class="menu__list">
+                    <li class="menu__item"><a class="item-menu" href="#">
+                            <div class="item-menu__icon">
+                                  <svg class="icon icon--web ">
+                                    <use xlink:href="images/icons.svg#icon--web"></use>
+                                  </svg>
+                            </div>
+                            <p class="item-menu__text text">Dashboard</p></a>
+                    </li>
+                    <li class="menu__item"><a class="item-menu" href="2#">
+                            <div class="item-menu__icon">
+                                  <svg class="icon icon--list ">
+                                    <use xlink:href="images/icons.svg#icon--list"></use>
+                                  </svg>
+                            </div>
+                            <p class="item-menu__text text">Order Book</p></a>
+                    </li>
+                    <li class="menu__item"><a class="item-menu" href="2#">
+                            <div class="item-menu__icon">
+                                  <svg class="icon icon--planet ">
+                                    <use xlink:href="images/icons.svg#icon--planet"></use>
+                                  </svg>
+                            </div>
+                            <p class="item-menu__text text">Exchange</p></a>
+                    </li>
+                    <li class="menu__item"><a class="item-menu" href="#">
+                            <div class="item-menu__icon">
+                                  <svg class="icon icon--card ">
+                                    <use xlink:href="images/icons.svg#icon--card"></use>
+                                  </svg>
+                            </div>
+                            <p class="item-menu__text text">Wallets</p></a>
+                    </li>
+                    <li class="menu__item"><a class="item-menu" href="#">
+                            <div class="item-menu__icon">
+                                  <svg class="icon icon--repeat ">
+                                    <use xlink:href="images/icons.svg#icon--repeat"></use>
+                                  </svg>
+                            </div>
+                            <p class="item-menu__text text">Transactions</p></a>
+                    </li>
+                    <li class="menu__item"><a class="item-menu" href="#">
+                            <div class="item-menu__icon">
+                                  <svg class="icon icon--settings ">
+                                    <use xlink:href="images/icons.svg#icon--settings"></use>
+                                  </svg>
+                            </div>
+                            <p class="item-menu__text text">Settings</p></a>
+                    </li>
+                  </ul>
+                </nav>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+            <div class="style-guide__tabs">
+                  <ul class="tabs">
+                    <li class="tabs__item"><a class="tabs__link text text--semibold text--black" href="#tab-5">Personal</a></li>
+                    <li class="tabs__item"><a class="tabs__link text text--semibold text--black" href="#tab-6">Security</a></li>
+                    <li class="tabs__item"><a class="tabs__link text text--semibold text--black" href="#tab-7">Notifications</a></li>
+                    <li class="tabs__item"><a class="tabs__link text text--semibold text--black" href="#tab-8">Connect Social</a></li>
+                  </ul>
+              <div class="order-book__tab" id="tab-5">5</div>
+              <div class="order-book__tab" id="tab-6">6</div>
+              <div class="order-book__tab" id="tab-7">7</div>
+              <div class="order-book__tab" id="tab-8">8</div>
+            </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12"><a class="currency-card" href="#" target="_blank">
+                  <div class="currency-card__top">
+                    <div class="currency-card__name-currency h4">BTC Wallet</div>
+                        <svg class="icon icon--btc icon--18">
+                          <use xlink:href="images/icons.svg#icon--btc"></use>
+                        </svg>
+                  </div>
+                  <div class="currency-card__total big-text">15.12548 BTC</div>
+                  <div class="currency-card__course text text--sm">1,125.4 USD</div></a>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <div class="wallet-item">
+                  <div class="wallet-item__top"><a class="wallet-item__left" href="#" target="_blank">
+                          <svg class="icon icon--btc icon--32">
+                            <use xlink:href="images/icons.svg#icon--btc"></use>
+                          </svg><span class="wallet-item__title h3">Bitcoin Wallet</span></a>
+                        <button class="btn icon--block icon--block-gray icon--block icon--block-gray" type="button">
+                              <svg class="icon icon--more icon--18">
+                                <use xlink:href="images/icons.svg#icon--more"></use>
+                              </svg>
+                        </button>
+                  </div>
+                  <div class="wallet-item__body"><span class="wallet-item__crypto h1">26.509505 BTC</span><span class="wallet-item__currency text">10,924.63USD</span></div>
+                  <div class="wallet-item__bottom"><a class="wallet-item__link link link--black text text--sm" href="#">Send</a><a class="wallet-item__link link link--black text text--sm" href="#">Receive</a><a class="wallet-item__link link link--black text text--sm" href="#">Withdraw</a></div>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12"><a class="order-item" href="#" target="_blank">
+                  <div class="order-item__left">
+                        <svg class="icon icon--eth-blue icon--42">
+                          <use xlink:href="images/icons.svg#icon--eth-blue"></use>
+                        </svg>
+                  </div>
+                  <div class="order-item__right">
+                    <div class="order-item__top"><span class="order-item__title text text--bold text--black">Buy Bitcoin</span><span class="order-item__crypto h3">0.5384 BTC</span></div>
+                    <div class="order-item__bottom"><span class="order-item__date text text--sm">Nov 12, 2019 11:34 PM</span><span class="order-item__currency text text--sm">3,980.93 USD</span></div>
+                  </div></a>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <div class="transactions-item">
+                  <div class="transactions-item__top">
+                    <p class="transactions-item__text text">2dxg25454841132457d21564d1321d35d5zxd54d545dv4v34d54v5d4v5d4x54dA5A5A52dxg25454841132457d21564d1321d35d5zxd54d545dv4v34d54v5d4 <img class="transactions-item__img" src="images/transactions-item__img-arrows-green.svg" alt="arrows">4dA5A5A52dxg25454841132457d21564d1321d35</p>
+                    <div class="transactions-item__info">
+                      <p class="transactions-item__date text">2017-12-03 13:57:30</p>
+                      <p class="transactions-item__crypto text text--semibold text--black">0.35473875 BTC</p>
+                    </div>
+                  </div>
+                  <div class="transactions-item__bottom"><span class="text text--semibold"></span>
+                        <p class="badge text text--sm text--bold"></p>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+                <div class="setting-item">
+                  <div class="setting-item__left"><span class="setting-item__title h3 h3--gray">Full Name</span><span class="setting-item__info h3 h3--gray">Abu Bin Ishtiyak</span></div>
+                  <div class="setting-item__right">
+                        <button class="btn icon--block icon--block-gray icon--block icon--block-gray" type="button">
+                              <svg class="icon icon--arrow-right ">
+                                <use xlink:href="images/icons.svg#icon--arrow-right"></use>
+                              </svg>
+                        </button>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+                  <thead class="table-head table-head__recent-activities">
+                    <tr> 
+                      <th class="text text--bold">#</th>
+                      <th class="text text--bold">Date</th>
+                      <th class="text text--bold">Time</th>
+                      <th class="text text--bold">Transaction ID</th>
+                      <th class="text text--bold">Status</th>
+                      <th class="text text--bold">Value</th>
+                    </tr>
+                  </thead>
+                  <tr class="table-item">
+                    <td class="text">1</td>
+                    <td class="text">01.27.2019</td>
+                    <td class="text">02:22 PM</td>
+                    <td class="text">DFRASEDE</td>
+                    <td class="text"><p class="badge text text--sm text--bold"> Paused</p></td>
+                    <td class="text">$2.39</td>
+                  </tr>
+                  <tr class="table-item">
+                    <td class="text">2</td>
+                    <td class="text">01.27.2019</td>
+                    <td class="text">02:22 PM</td>
+                    <td class="text">DFRASEDE</td>
+                    <td class="text"><p class="badge text text--sm text--bold badge--green"> Completed</p></td>
+                    <td class="text">$2.39</td>
+                  </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+            <header class="header">
+              <div class="header__left"><a class="logo" href="/"><img src="images/logo.svg" alt="Crypto" title="Crypto"></a>
+                    <button class="btn icon--block icon--block" type="button">
+                          <svg class="icon icon--hamburger ">
+                            <use xlink:href="images/icons.svg#icon--hamburger"></use>
+                          </svg>
+                    </button>
+              </div>
+              <div class="header__right">
+                <div class="header__serch">
+                      <form class="search" method="post" name="search">
+                            <button class="btn icon--block icon--block" type="submit">
+                                  <svg class="icon icon--search ">
+                                    <use xlink:href="images/icons.svg#icon--search"></use>
+                                  </svg>
+                            </button>
+                            <div class="input">
+                              <input type="text" name="serch" id="serch" placeholder="Search here...">
+                            </div>
+                      </form>
+                </div>
+                <div class="header__action">
+                  <div class="header__action-btn">
+                        <button class="btn icon--block icon--block" type="button">
+                              <svg class="icon icon--apps ">
+                                <use xlink:href="images/icons.svg#icon--apps"></use>
+                              </svg>
+                        </button>
+                        <button class="btn icon--block icon--block" type="button">
+                              <svg class="icon icon--mail ">
+                                <use xlink:href="images/icons.svg#icon--mail"></use>
+                              </svg>
+                        </button>
+                        <button class="btn icon--block icon--block" type="button">
+                              <svg class="icon icon--notifications ">
+                                <use xlink:href="images/icons.svg#icon--notifications"></use>
+                              </svg>
+                        </button>
+                  </div>
+                      <div class="header-profile">
+                        <div class="header-profile__text"><a class="text" href="#" target="_blank">Constance Fields</a></div>
+                            <div class="user-pik">
+                              <picture><img class="user-pik__img" src="images/user-pic__img-01.png" srcset="images/user-pic__img-01@2x.png 2x" alt="Author" title="Author"></picture>
+                            </div>
+                      </div>
+                </div>
+              </div>
+            </header>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+            <div class="table-recent-activities">
+              <div class="table-recent-activities__header">
+                <h2 class="table-recent-activities__title h4">Recent Activities</h2>
+                    <button class="btn icon--block icon--block" type="button">
+                          <svg class="icon icon--more icon--18">
+                            <use xlink:href="images/icons.svg#icon--more"></use>
+                          </svg>
+                    </button>
+              </div>
+                  <table class="table">
+                        <thead class="table-head table-head__recent-activities">
+                          <tr> 
+                            <th class="text text--bold">#</th>
+                            <th class="text text--bold">Date</th>
+                            <th class="text text--bold">Time</th>
+                            <th class="text text--bold">Transaction ID</th>
+                            <th class="text text--bold">Status</th>
+                            <th class="text text--bold">Value</th>
+                          </tr>
+                        </thead>
+                        <tr class="table-item">
+                          <td class="text">1</td>
+                          <td class="text">01.27.2019</td>
+                          <td class="text">02:22 PM</td>
+                          <td class="text">DFRASEDE</td>
+                          <td class="text"><p class="badge text text--sm text--bold"> Paused</p></td>
+                          <td class="text">$2.39</td>
+                        </tr>
+                        <tr class="table-item">
+                          <td class="text">2</td>
+                          <td class="text">01.27.2019</td>
+                          <td class="text">02:22 PM</td>
+                          <td class="text">DFRASEDE</td>
+                          <td class="text"><p class="badge text text--sm text--bold badge--green"> Completed</p></td>
+                          <td class="text">$2.39</td>
+                        </tr>
+                        <tr class="table-item">
+                          <td class="text">3</td>
+                          <td class="text">01.27.2019</td>
+                          <td class="text">02:22 PM</td>
+                          <td class="text">DFRASEDE</td>
+                          <td class="text"><p class="badge text text--sm text--bold badge--green"> Completed</p></td>
+                          <td class="text">$2.39</td>
+                        </tr>
+                        <tr class="table-item">
+                          <td class="text">4</td>
+                          <td class="text">01.27.2019</td>
+                          <td class="text">02:22 PM</td>
+                          <td class="text">DFRASEDE</td>
+                          <td class="text"><p class="badge text text--sm text--bold"> Paused</p></td>
+                          <td class="text">$2.39</td>
+                        </tr>
+                        <tr class="table-item">
+                          <td class="text">5</td>
+                          <td class="text">01.27.2019</td>
+                          <td class="text">02:22 PM</td>
+                          <td class="text">DFRASEDE</td>
+                          <td class="text"><p class="badge text text--sm text--bold badge--green"> Completed</p></td>
+                          <td class="text">$2.39</td>
+                        </tr>
+                        <tr class="table-item">
+                          <td class="text">6</td>
+                          <td class="text">01.27.2019</td>
+                          <td class="text">02:22 PM</td>
+                          <td class="text">DFRASEDE</td>
+                          <td class="text"><p class="badge text text--sm text--bold badge--green"> Completed</p></td>
+                          <td class="text">$2.39</td>
+                        </tr>
+                        <tr class="table-item">
+                          <td class="text">6</td>
+                          <td class="text">01.27.2019</td>
+                          <td class="text">02:22 PM</td>
+                          <td class="text">DFRASEDE</td>
+                          <td class="text"><p class="badge text text--sm text--bold"> Paused</p></td>
+                          <td class="text">$2.39</td>
+                        </tr>
+                  </table>
+            </div>
+          </div>
+        </div>
+        <div class="row mr-mb10">
+          <div class="col-12">
+            <div class="tradingview"><img class="tradingview__img" src="images/tradingview__img-01.jpg" alt="График"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/svg4everybody.min.js"></script>
+    <script src="js/perfect-scrollbar.min.js"></script>
+    <script src="js/jquery.tabslet.min.js"></script>
+    <script>$(document).ready(function () {	svg4everybody({});});</script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
